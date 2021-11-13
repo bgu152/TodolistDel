@@ -15,7 +15,6 @@ function App() {
   }
 
   const deleteRow = (event) => {
-    alert(event.target.id);
     let newTodos= todos.filter((todo, i) => i != event.target.id);
     setTodos(newTodos);
   }
